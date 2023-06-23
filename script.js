@@ -22,65 +22,12 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'images/2Pac_-_All_Eyez_on_Me.jpg',
-        name : 'All Eyez on Me',
-        artist : '2Pac',
-        music : 'musica/musicasTrabalho_y2mate.com - 2Pac All Eyez On Me.mp3'
-    },
-    {
-        img : 'images/iron-maiden-sanctuary-single-cover.jpg',
-        name : 'Sanctuary',
-        artist : 'Iron Maiden',
-        music : 'musica/musicasTrabalho_y2mate.com - Iron Maiden Sanctuary.mp3'
-    },
-    {
-        img : 'images/luz-1152x0-c-default.jpg',
-        name : 'Luz',
-        artist : 'Djavan',
-        music : 'musica/musicasTrabalho_y2mate.com - Djavan Luz Áudio Oficial.mp3'
-    },
-    {
-        img : 'images/junfrei.jpeg',
-        name : 'Miss You',
-        artist : 'Oliver Tree & Robin Schulz',
-        music : 'musica/X2Download.app - Oliver Tree & Robin Schulz - Miss You [Official Audio] (128 kbps).mp3'
-    },
-    {
         img : 'images/hades.jpeg',
         name : 'Hades|Alone',
         artist : 'Enygma',
         music : 'musica/hades-alone-saint-seiya-the-lost-canvas-enygma.mp3'
     },
-    {
-        img : 'images/image.png',
-        name : 'Take On Me',
-        artist : 'a-ha',
-        music : 'musica/X2Download.app - a-ha - Take On Me (Official Video) [Remastered in 4K] (128 kbps).mp3'
-    },
-     {
-        img : 'images/fall-out-boy.jpeg',
-        name : 'The Phoenix',
-        artist : 'Fall Out Boy',
-        music : 'musica/the-phoenix.mp3'
-    },
-    {
-        img : 'images/cortesy.jpeg',
-        name : 'Courtesy Call',
-        artist : 'Thousand Foot',
-        music : 'musica/onlymp3.to - Thousand Foot Krutch Courtesy Call Official Audio -ocpDEOXABWg-192k-1687354072.mp3'
-    },
-    {
-        img : 'images/tombstone.png',
-        name : 'Its Been So Long',
-        artist : 'The Living Tombstone',
-        music : 'musica/onlymp3.to - Five Nights at Freddy s 2 Song - The Living Tombstone FNAF2 -gk-aCL6eyGc-192k-1687354142.mp3'
-    },
-     {
-        img : 'images/índice.jpeg',
-        name : 'Clint Eastwood',
-        artist : 'Gorillaz',
-        music : 'musica/onlymp3.to - Gorillaz - Clint Eastwood Official Video -1V_xRb0x9aw-192k-1687354119.mp3'
-    }
+
 ];
 
 loadTrack(track_index);
@@ -208,3 +155,4 @@ function setUpdate(){
         total_duration.textContent = durationMinutes + ":" + durationSeconds;
     }
 }
+
