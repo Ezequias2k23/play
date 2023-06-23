@@ -26,8 +26,7 @@ const music_list = [
         name : 'Hades|Alone',
         artist : 'Enygma',
         music : 'musica/hades-alone-saint-seiya-the-lost-canvas-enygma.mp3'
-    },
-
+    }
 ];
 
 loadTrack(track_index);
